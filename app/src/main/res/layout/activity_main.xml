@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        tools:context=".activitys.MainActivity">
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/mViewPager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/_120sdp"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="1dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="@dimen/_15sdp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <com.google.android.material.tabs.TabLayout
+                android:id="@+id/mTab"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_5sdp"
+                app:tabBackground="@drawable/selectedviews"
+                app:tabIndicatorHeight="0dp" />
+
+            <TextView
+                android:id="@+id/bText"
+                android:layout_width="@dimen/_140sdp"
+                android:layout_height="@dimen/_52sdp"
+                android:layout_below="@+id/mTab"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:background="@drawable/button_back"
+                android:fontFamily="@font/poppins"
+                android:gravity="center"
+                android:text="Next"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_15sdp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+
+
+    </RelativeLayout>
+
+</layout>

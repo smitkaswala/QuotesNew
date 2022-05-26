@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+
+        <TextView
+            android:id="@+id/mName"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_50sdp"
+            android:fontFamily="@font/poppins_medium"
+            android:gravity="center"
+            android:text="Quotes App"
+            android:textColor="@color/text_color"
+            android:textSize="@dimen/_18sdp" />
+
+        <LinearLayout
+            android:id="@+id/mLinear"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_50sdp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/mMenu"
+                android:layout_width="@dimen/_50sdp"
+                android:layout_height="@dimen/_50sdp"
+                android:paddingTop="@dimen/_17sdp"
+                android:paddingBottom="@dimen/_16sdp"
+                android:src="@drawable/ic_menu" />
+
+            <androidx.appcompat.widget.SearchView
+                android:id="@+id/mSearch"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_50sdp"
+                android:layoutDirection="rtl"
+                android:paddingRight="@dimen/_5sdp"
+                app:searchIcon="@drawable/ic_search"
+                app:closeIcon="@drawable/ic_close"
+                android:theme="@style/cursorColor"
+
+                tools:ignore="RtlHardcoded,RtlSymmetry"/>
+
+        </LinearLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/mRecycler"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/mLinear" />
+
+    </RelativeLayout>
+
+</layout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Cubezytech/AndroidStudioProjects/Quotes/app/src/main/res/drawable/bg_gradient.xml" value="0.252" />
+        <entry key="..\:/Users/Cubezytech/AndroidStudioProjects/Quotes/app/src/main/res/drawable/cursor.xml" value="0.1855" />
+        <entry key="..\:/Users/Cubezytech/AndroidStudioProjects/Quotes/app/src/main/res/drawable/ic_favorite.xml" value="0.18" />
+        <entry key="..\:/Users/Cubezytech/AndroidStudioProjects/Quotes/app/src/main/res/drawable/ic_favorite_click.xml" value="0.1855" />
+        <entry key="..\:/Users/Cubezytech/AndroidStudioProjects/Quotes/app/src/main/res/drawable/ic_like_click.xml" value="0.1855" />
+        <entry key="..\:/Users/Cubezytech/AndroidStudioProjects/Quotes/app/src/main/res/drawable/selecteditem.xml" value="0.2865" />
+        <entry key="..\:/Users/Cubezytech/AndroidStudioProjects/Quotes/app/src/main/res/drawable/selectedviews.xml" value="0.2865" />
+        <entry key="..\:/Users/Cubezytech/AndroidStudioProjects/Quotes/app/src/main/res/drawable/splash_back.xml" value="0.2865" />
+        <entry key="..\:/Users/Cubezytech/AndroidStudioProjects/Quotes/app/src/main/res/drawable/swipe_gradient.xml" value="0.252" />
+        <entry key="..\:/Users/Cubezytech/AndroidStudioProjects/Quotes/app/src/main/res/layout/activity_demo_pager.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/Cubezytech/AndroidStudioProjects/Quotes/app/src/main/res/layout/activity_favorite.xml" value="0.346875" />
+        <entry key="..\:/Users/Cubezytech/AndroidStudioProjects/Quotes/app/src/main/res/layout/activity_favorite_image.xml" value="0.37135416666666665" />
+        <entry key="..\:/Users/Cubezytech/AndroidStudioProjects/Quotes/app/src/main/res/layout/activity_image.xml" value="0.25" />
+        <entry key="..\:/Users/Cubezytech/AndroidStudioProjects/Quotes/app/src/main/res/layout/activity_items.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/Cubezytech/AndroidStudioProjects/Quotes/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/Cubezytech/AndroidStudioProjects/Quotes/app/src/main/res/layout/activity_quotes.xml" value="0.25" />
+        <entry key="..\:/Users/Cubezytech/AndroidStudioProjects/Quotes/app/src/main/res/layout/activity_viewer.xml" value="0.25" />
+        <entry key="..\:/Users/Cubezytech/AndroidStudioProjects/Quotes/app/src/main/res/layout/internet_connection.xml" value="0.25" />
+        <entry key="..\:/Users/Cubezytech/AndroidStudioProjects/Quotes/app/src/main/res/layout/item_favorite_list.xml" value="0.38697916666666665" />
+        <entry key="..\:/Users/Cubezytech/AndroidStudioProjects/Quotes/app/src/main/res/layout/item_quotes.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/Cubezytech/AndroidStudioProjects/Quotes/app/src/main/res/layout/item_quotes_list.xml" value="0.25" />
+        <entry key="..\:/Users/Cubezytech/AndroidStudioProjects/Quotes/app/src/main/res/layout/items_images.xml" value="0.12" />
+        <entry key="..\:/Users/Cubezytech/AndroidStudioProjects/Quotes/app/src/main/res/layout/items_images_list.xml" value="0.33" />
+        <entry key="..\:/Users/Cubezytech/AndroidStudioProjects/Quotes/app/src/main/res/layout/items_pages_list.xml" value="0.3625" />
+        <entry key="..\:/Users/Cubezytech/AndroidStudioProjects/Quotes/app/src/main/res/layout/progress_dialog.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/Cubezytech/AndroidStudioProjects/Quotes/app/src/main/res/layout/slider_view.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/Cubezytech/AndroidStudioProjects/Quotes/app/src/main/res/layout/swipe.xml" value="0.38697916666666665" />
+        <entry key="..\:/Users/Cubezytech/AndroidStudioProjects/Quotes/app/src/main/res/xml/fileprovider.xml" value="0.2838541666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/progressDailog"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_200sdp"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/mobile_internet" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_25sdp"
+        android:fontFamily="@font/poppins"
+        android:gravity="center_horizontal"
+        android:text="No internet connection found. \n Check your connection"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_14sdp"
+        android:visibility="visible"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/mButton"
+        android:layout_width="@dimen/_100sdp"
+        android:layout_height="@dimen/_45sdp"
+        android:text="Try Again"
+        android:fontFamily="@font/poppins"
+        android:textAllCaps="false"
+        android:backgroundTint="@color/text_color"
+        android:layout_marginTop="@dimen/_25sdp"/>
+
+</LinearLayout>

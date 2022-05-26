@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/text_color"
+        tools:context=".activityclass.FavoriteImageActivity">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/mRecycler"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"/>
+
+        <LinearLayout
+            android:id="@+id/mLinear"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_50sdp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/mMenu"
+                android:layout_width="@dimen/_50sdp"
+                android:layout_height="@dimen/_50sdp"
+                android:padding="@dimen/_11sdp"
+                app:tint="@color/white"
+                android:src="@drawable/ic_back"/>
+
+            <TextView
+                android:id="@+id/mText"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:fontFamily="@font/poppins_medium"
+                android:gravity="center"
+                android:text="Favorites Images"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_18sdp" />
+
+            <ImageView
+                android:layout_width="@dimen/_50sdp"
+                android:layout_height="@dimen/_50sdp"
+                android:padding="@dimen/_14sdp"
+                android:src="@drawable/ic_search"
+                android:visibility="invisible"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</layout>
